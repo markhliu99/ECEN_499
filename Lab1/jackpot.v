@@ -45,13 +45,13 @@ module jackpot(
                 cheating = 0;
             end
             else begin 
-			//The most bootleg cheat detection but hey it works.
-			    if(cheating == 0) begin
-                    lights = 4'b1111;
-                end
-                else if (cheating == 1) begin
+		//The most bootleg cheat detection but hey it works.
+	    	if(cheating == 0) begin
+                	lights = 4'b1111;
+           	end
+            	else if (cheating == 1) begin
                     lights = 4'b1010;
-                end
+           	end
             end 
         end
            
